@@ -66,9 +66,12 @@ alert(`A primeira letra deste texto é ${primeiraLetra} e última é o ${ultimaL
 
 
 
-/*let nome = prompt("Insira seu nome") 
-let sombrenome = prompt("Insira seu sobrenome") 
+/*let nome = prompt("Insira seu nome")
+let nomeMaiusculo = nome.toUpperCase(nome) 
+let sobrenome = prompt("Insira seu sobrenome")
+let sobrenomeMaiusculo = sobrenome.toUpperCase(sobrenome)  
 let idade = parseInt(prompt("insira sua idade"))
-let setor = prompt("Insira seu setor") 
+let setor = prompt("Insira seu setor")
+let setorMaiusculo = setor.toUpperCase(setor)
 
-alert(`nome: ${nome.toUpperCase(nome 0)} ${sombrenome} - idade: ${idade} - Setor: ${setor}`)*/
+alert(`nome: ${nomeMaiusculo} ${sobrenomeMaiusculo} - idade: ${idade} - Setor: ${setorMaiusculo}`)*/
