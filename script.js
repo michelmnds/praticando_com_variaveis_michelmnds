@@ -11,10 +11,10 @@ let valorFahrenheit = (9 * valorCelsius + 160) / 5
 alert(`O valor ${valorCelsius} em Fahrenheit é ${valorFahrenheit}`)
 
 
-let valorFahrenheit = parseFloat(prompt("Insira um valor em Fahrenheit"))
-let valorCelsius = ((valorFahrenheit - 32)*5)/9
+let valorFahrenheit1 = parseFloat(prompt("Insira um valor em Fahrenheit"))
+let valorCelsius1 = ((valorFahrenheit1 - 32)*5)/9
 
-alert(`O valor ${valorFahrenheit} em Celsius é ${valorCelsius}`)
+alert(`O valor ${valorFahrenheit1} em Celsius é ${valorCelsius1}`)
 
 
 let comprimento = parseInt(prompt("Insira um comprimento"))
@@ -52,8 +52,8 @@ let divisao = inteiro1 % inteiro2
 alert(`O resto da divisão de ${inteiro1} por ${inteiro2} é: ${divisao}`)
 
 
-let texto = prompt("Insira uma frase ou palavra")
-let cumprimento = texto.length
+let texto1 = prompt("Insira uma frase ou palavra")
+let cumprimento = texto1.length
 
 alert(`Esse texto tem ${cumprimento} caracteres.`)
 
